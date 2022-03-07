@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteles Galácticos</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <section class="logo">
+        <img src="/assets/logo_pasteleria.png" alt="" height="250px" width="250px">
+    </section>
+    <h1>Pasteles Galáticos</h1>
+    <section>
+        <p class="parrafoPrincipal">Bienvenido a nuestra página web, aquí podrás realizar el pedido de tu pastel galáctico.<br>
+        Solamente debes de llenar el formulario de pedido al final de la página</p>
+    </section>
+
+    <section class="tablaPasteles">
+        <table border="4" align="center">
+            <thead>
+                <tr>
+                    <th>Sabores</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>$300.00</td>
+                </tr>
+
+                <tr>
+                    <td>Fresa</td>
+                    <td>$300.00</td>
+                </tr>
+
+                <tr>
+                    <td>Vainilla</td>
+                    <td>$250.00</td>
+                </tr>
+
+                <tr>
+                    <td>Tres Leches</td>
+                    <td>$350.00</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section class="tablaAdornos">
+        <table border="4" align="center">
+            <thead>
+                <tr>
+                    <th>Adorno</th>
+                    <th>Precio pza</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Velas de números</td>
+                    <td>$20.00</td>
+                </tr>
+
+                <tr>
+                    <td>Velas de figuras</td>
+                    <td>$30.00</td>
+                </tr>
+
+                <tr>
+                    <td>Velas de chispas</td>
+                    <td>$50.00</td>
+                </tr>
+
+                <tr>
+                    <td>Velas de letras</td>
+                    <td>$20.00</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+
+    <section class="formulario">
+        <form>
+            <fieldset>
+
+                <legend>Llena este formulario y realiza tu pedido</legend>
+                <label for="Sabores">Selecciona el sabor de tu pastel</label><br>
+                <input list="Sabores">
+                <datalist id="Sabores">
+                    <option value="Chocolate">
+                    <option value="Fresa">
+                    <option value="Tres Leches">
+                    <option value="Vainilla">
+                </datalist><br><br>
+
+                <label for="Adornos">Selecciona tu adorno</label><br>
+                <input list="Adornos">
+                <datalist id="Adornos">
+                    <option value="Velas de números">
+                    <option value="Velas de figuras">
+                    <option value="Velas de Chispas">
+                    <option value="Velas de letras">
+                </datalist><br><br>
+
+                <label>Si deseas combinar dos sabores, por favor seleccionalos:</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Chocolate</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Fresa</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Vainilla</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Tres Leches</label><br><br>
+
+
+                <label>Si deseas combinar dos adornos, por favor seleccionalos:</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Velas de números</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Velas de Figuras</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Velas de Chispas</label><br>
+                <input type="checkbox" id="saboresCombinados" value="Chocolate">
+                <label for="saboresCombinados">Velas de Letras</label><br><br><br>
+
+                <label for="Nombre">Ingresa tu nombre completo</label><br>
+                <input type="text" id="Id"><br>
+                <label for="Telefono">Ingresa tu número de teléfono</label><br>
+                <input type="tel" id="Id"><br>
+                <label for="correo">Ingresa tu dirección de correo electrónico</label><br>
+                <input type="email" id="Id"><br>
+                <label for="Descripcion">Describe cómo quieres que se vea tu pastel galáctico</label><br>
+                <textarea id="descripcion" cols="30" rows="10"></textarea><br>
+                <div align="center"><button>Enviar</button></div>
+
+                    
+            </fieldset>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Dirección: Calle Maldiva #564 Col.Espina</p><br>
+        <p>Teléfono: 54-5897-2541</p><br>
+        <p>Horarios de atención: Lunes a Sábado de 9:00 am - 6:00 pm</p><br>
+    </footer>
+    
+    
+</body>
+</html>
